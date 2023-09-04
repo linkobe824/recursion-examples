@@ -5,7 +5,7 @@ const productOfArray = (arr) => {
   if (arr.length === 1) {
     return arr[0];
   } else {
-    first = arr[0];
+    let first = arr[0];
     arr.shift();
     return first * productOfArray(arr);
   }
